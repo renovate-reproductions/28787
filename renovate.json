@@ -8,7 +8,6 @@
   "separateMinorPatch": true,
   "patch": {
     "groupName": "all patch updates",
-    "automerge": true,
     "description": "Group and automerge all patch updates together"
   }
 }
