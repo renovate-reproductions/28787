@@ -1,13 +1,27 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  // use recommended config, including groupings
   "extends": [
     "config:recommended"
   ],
+
+  // don't limit PR creation
   "prConcurrentLimit": 20,
   "prHourlyLimit": 0,
+
+  // separate patch from minor, and group all patch together
   "separateMinorPatch": true,
   "patch": {
     "groupName": "all patch updates",
     "description": "Group and automerge all patch updates together"
-  }
+  },
+
+  // disable minor and major
+  "minor": {
+    "enabled": false
+  },
+  "major": {
+    "enabled": false
+  },
 }
