@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "prConcurrentLimit": 20,
+  "prHourlyLimit": 0,
+  "separateMinorPatch": true,
+  "patch": {
+    "groupName": "all patch updates",
+    "automerge": true,
+    "description": "Group and automerge all patch updates together"
+  }
+}
