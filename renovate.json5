@@ -17,11 +17,8 @@
     "description": "Group and automerge all patch updates together"
   },
 
-  // disable minor and major
+  // disable minor
   "minor": {
-    "enabled": false
-  },
-  "major": {
     "enabled": false
   },
 }
