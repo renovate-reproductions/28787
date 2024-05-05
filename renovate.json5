@@ -12,10 +12,10 @@
 
   // separate patch from minor, and group all patch together
   "separateMinorPatch": true,
-  "patch": {
-    "groupName": "all patch updates",
-    "description": "Group and automerge all patch updates together"
-  },
+  "packageRules": [{
+    "matchUpdateTypes": ["patch"],
+    "groupName": "all patch updates"
+  }],
 
   // disable minor
   "minor": {
